@@ -6,6 +6,12 @@ notification-claude-wsl.mjs は、[こちらの Gist](https://gist.github.com/la
 
 ## 使用方法
 
+Windows PowerShell を管理者権限で起動し、`BurntToast`をインストールする。
+
+```
+Install-Module BurntToast
+```
+
 `~/.claude/hooks`ディレクトリに`notification-claude-wsl.mjs`を配置
 
 `notification-claude-wsl.mjs`に実行権限を付与
